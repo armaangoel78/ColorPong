@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.armaangoel.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Pong"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView"
+        android:focusable="true"
+        android:textSize="65dp"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:layout_above="@+id/oneP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:typeface="sans"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Single Player"
+        android:textAllCaps="false"
+        android:id="@+id/oneP"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:height="75dp"
+        android:typeface="normal"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Two Player"
+        android:textAllCaps="false"
+        android:id="@+id/twoP"
+        android:layout_below="@+id/oneP"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:height="75dp"
+        android:typeface="normal"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Bluetooth Multiplayer"
+        android:textAllCaps="false"
+        android:id="@+id/bluetoothP"
+        android:layout_below="@+id/twoP"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:height="75dp"
+        android:typeface="normal"
+        android:textSize="25dp" />
+
+</RelativeLayout>

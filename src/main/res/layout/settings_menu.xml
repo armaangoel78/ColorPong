@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="false">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="100dp"
+        android:text="Sound FX"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="100dp"
+        android:text="Music"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="100dp"
+        android:text="Tilt Control"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+</LinearLayout>
